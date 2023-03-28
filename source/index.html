@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Cat Energy</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="images/icons/favicon-32x32.png">
+</head>
 
-  </body>
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="#" width="#" height="#" alt="Корма Cat energy.">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toogle" type="button">
+        <span class="visually-hidden"></span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--current">
+            Главная
+          </li>
+          <li class="site-list__item">
+            Каталог продукции
+          </li>
+          <li class="site-list__item">
+            Подбор программы
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-container">
+    <h1 class="visually-hidden">Cat energy</h1>
+    <section class="choose-program">
+      <div class="choose-program__wrapper">
+        <h2 class="visually-hidden">Выбор программы питания</h2>
+        <p class="choose-program__title">Функциональное питание для котов</p>
+        <p class="choose-program__intro">Занялся собой? Займись котом!</p>
+        <a class="choose-program__button primary-button" href="#">Подобрать программу</a>
+      </div>
+    </section>
+    <section class="food-type">
+      <h2 class="visually-hidden">Выберите тип питания</h2>
+      <div class="food-type__wrapper">
+        <!--Правильно ли подобрана обертка-->
+        <div class="food-type__loose-weight loose-weight">
+          <h2 class="visually-hidden">Похудение</h2>
+          <p class="loose-weight__title">Похудение</p>
+          <p class="loose-weight__intro">бла бла бла</p>
+          <a class="loose-weight__link">Каталог slim</a>
+        </div>
+        <div class="food-type__weight-gain weight-gain">
+          <h2 class="visually-hidden">Набор массы</h2>
+          <p class="weight-gain__title">Набор массы</p>
+          <p class="weight-gain__intro">бла бла бла</p>
+          <a class="weight-gain__link">Каталог pro</a>
+        </div>
+      </div>
+    </section>
+    <section class="how-it-works">
+      <div class="how-it-works__wrapper">
+        <h2 class="visually-hidden">Как это работает</h2>
+        <p class="how-it-works__title">Как это работает</p>
+        <ul class="how-it-works__list description-list">
+          <!--Можно ли давать числовые названия классов ИСПРАВИТЬ-->
+          <li class="description-list__item description-list__item--first">бла бла бла</li>
+          <li class="description-list__item description-list__item--second">бла бла бла</li>
+          <li class="description-list__item description-list__item--third">бла бла бла</li>
+          <li class="description-list__item description-list__item--fourth">бла бла бла</li>
+        </ul>
+      </div>
+    </section>
+    <section class="example">
+      <div class="example__wrapper">
+        <div class="example__text-part-wrapper">
+          <h2 class="visually-hidden">Живой пример</h2>
+          <p class="example__title">Живой пример</p>
+          <p class="example__intro">Бла бла бла</p>
+          <!--не лишняя ли здесь обертка-->
+          <dl class="example__list">
+            <div class="example__item">
+              <dt class="example__number">5 кг</dt>
+              <dd class="example__description">Снижение веса</dd>
+            </div>
+            <div class="example__item">
+              <dt class="example__number">60 дней</dt>
+              <dd class="example__description">затрачено времени</dd>
+            </div>
+          </dl>
+          <p class="example__cost">Затраты на питание: 15 000 руб.</p>
+        </div>
+        <div class="example__img-part-wrapper">
+          <img class="example__img" src="#" width="#" height="#" alt="Изменивший вес кот.">
+        </div>
+      </div>
+    </section>
+    <section class="partnership">
+      <!--правильно ли понял, что здесь понадобится два обертки внутри-->
+      <div class="partnership__wrapper">
+        <h2 class="visually-hidden">Приглашаем к сотрудничеству дилеров</h2>
+        <div class="partnership__text-partnership text-partnership">
+          <p class="partnership__title">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="partnership__adress">ул. Большая конюшенная, д.19/8 Санкт-Петербург</p>
+        </div>
+        <div class="partnership__map">
+          
+        </div>
+      </div>
+    </section>
+   </main>
+  <footer class="main-footer">
+    <a class="main-footer__logo" href="#">
+      <img class="main-footer__logo-img" src="#" width="#" height="#" alt="Cat Energy">
+    </a>
+    <div class="main-footer__socials">
+      <a class="main-footer__socials-link main-footer__socials-link--vk" href="#"> </a>
+      <a class="main-footer__socials-link main-footer__socials-link--youtube" href="#"> </a>
+      <a class="main-footer__socials-link main-footer__socials-link--telegram" href="#"> </a>
+    </div>
+    <a class="main-footer__academy" href="#"></a>
+  </footer>
+</body>
+
 </html>
