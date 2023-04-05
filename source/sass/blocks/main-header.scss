@@ -1,0 +1,27 @@
+.main-header__logo-picture {
+  background-image: url(../../img/logo/logo-mobile.svg);
+  width: 34px;
+  height: 38px;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
+
+.main-header__logo-text {
+  background-image: url(../../img/logo/logo-text.svg);
+  width: 101px;
+  height: 18px;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
