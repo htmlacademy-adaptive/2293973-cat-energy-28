@@ -1,0 +1,17 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer__socials-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.main-footer__academy-link {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.how-it-works-list {
+  list-style: none;
+}
+
+.how-it-works-list__item {
+  margin-left: 40px;
+  margin-bottom: 26px;
+  position: relative;
+
+  &:after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: rgba(104, 183, 56, 1);
+    position: absolute;
+    top: 0;
+    left:-80px;
+  }
+}

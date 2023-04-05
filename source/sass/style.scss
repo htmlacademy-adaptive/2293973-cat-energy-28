@@ -1,6 +1,7 @@
 body {
   margin: auto;
   min-height: 100%;
+  width: 320px;
   font-family: "lato", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,8 +10,19 @@ body {
   line-height: 18px;
   color: rgba(68, 68, 68, 1);
   padding: 0;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 @import "./fonts.scss";
 @import "./blocks/visually-hidden.scss";
-@import "./blocks/main-header.scss"
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/main-nav-list.scss";
+@import "./blocks/choose-program.scss";
+@import "./blocks/primary-button.scss";
+@import "./blocks/loose-weight.scss";
+@import "./blocks/weight-gain.scss";
+@import "./blocks/how-it-works.scss";
+@import "./blocks/how-it-works-list";
+@import "./blocks/example.scss";
+@import "./blocks/partnership.scss";
+@import "./blocks/main-footer.scss";
