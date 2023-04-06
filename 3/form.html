@@ -59,7 +59,7 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list main-nav-list">
-          <li class="main-nav-list__item site-list__item--current">
+          <li class="main-nav-list__item main-nav-list__item--current">
             <a class=main-nav-list__link href="index.html">Главная</a>
           </li>
           <li class="main-nav-list__item">
@@ -83,21 +83,21 @@
                     <div class="application-form__general-info general-info">
                         <div class="general-info__cat-info cat-info">
                             <label class="cat-info__input" for="cat-name">
+                                <span class="cat-info__legend">Имя:*</span>
                                 <input class="cat-info__cat-name cat-name" type="text" name="cat-name" id="cat-name"
                                     value="Барсик">
                                 <span class="visually-hidden">Введите имя питомца.</span>
-                                <span class="cat-info__legend">Имя:*</span>
-                            </label>
+                                                            </label>
                             <label class="cat-info__input" for="cat-weight">
+                                <span class="cat-info__legend">Вес (КГ):*</span>
                                 <input class="cat-info__cat-weight cat-weight" type="number" name="cat-weight"
                                     id="cat-weight" value="7">
                                 <span class="visually-hidden">Введите вес питомца.</span>
-                                <span class="cat-info__legend">Вес (КГ):*</span>
                             </label>
                             <label class="cat-info__input" for="cat-age">
-                                <input class="cat-info__cat-age cat-age" type="text" name="cat-age" id="cat-age"
-                                    value="7">
                                 <span class="cat-info__legend">Возраст (лет):*</span>
+                                <input class="cat-info__cat-age cat-age" type="number" name="cat-age" id="cat-age"
+                                    value="7">
                                 <span class="visually-hidden">Введите возраст питомца.</span>
                             </label>
                         </div>
@@ -107,7 +107,7 @@
                             <ul class="program-option__list program-option-list">
                                 <li class="program-option-list__item">
                                     <label class="program-option-list__radios list-radios" for="weight-loss">
-                                        <input class="list-radios__control-input visually-hidden" type="radio"
+                                        <input class="list-radios__control-input <!--visually-hidden-->" type="radio"
                                             name="radio" id="weight-loss" checked="checked">
                                         <span class="list-radios__radio-mark"></span>
                                         <span class="list-radios__name">похудение</span>
@@ -116,7 +116,7 @@
                                 </li>
                                 <li class="program-option-list__item">
                                     <label class="program-option-list__radios" for="weight-gain">
-                                        <input class="program-option-list__control-input visually-hidden" type="radio"
+                                        <input class="program-option-list__control-input <!--visually-hidden-->" type="radio"
                                             name="radio" id="weight-gain">
                                         <span class="program-option-list__radio-mark"></span>
                                         <span class="program-option-list__name">Набор массы</span>
@@ -125,7 +125,7 @@
                                 </li>
                                 <li class="program-option-list__item">
                                     <label class="program-option-list__radios" for="dont-know">
-                                        <input class="program-option-list__control-input visually-hidden" type="radio"
+                                        <input class="program-option-list__control-input <!--visually-hidden-->" type="radio"
                                             name="radio" id="dont-know">
                                         <span class="program-option-list__radio-mark"></span>
                                         <span class="program-option-list__name">Не знаю (нужен ваш совет)</span>
@@ -137,18 +137,18 @@
                     </div>
                     <div class="application-form__contact customer-contact">
                         <p class="customer-contact__title">Контактные данные (владельца кота)</p>
-                        <div class="customer-contact__inputs contact-inputs">
-                            <label class="contact-inputs__email-input email-input" for="email">
-                                <input class="email-input__email" type="email" name="email" id="email"
+                        <div class="customer-contact__wrapper">
+                            <label class="customer-contact__input" for="email">
+                               <span class="customer-contact__legend">E-mail:*</span>
+                                <input class="customer-contact__input-email" type="email" name="email" id="email"
                                     value="kuklachev@gmail.com">
                                 <span class="visually-hidden">Введите ваш email.</span>
-                                <span class="email-input__legend">E-mail:*</span>
                             </label>
-                            <label class="contact-inputs__tel-input tel-input" for="phone">
-                                <input class="tel-input__email" type="tel" name="phone" id="phone"
+                            <label class="customer-contact__input" for="phone">
+                                <span class="customer-contact__legend">телефон:*</span>
+                                <input class="customer-contact__input-tel" type="tel" name="phone" id="phone"
                                     value="8 (960) 900-60-90">
                                 <span class="visually-hidden">Введите ваш телефон.</span>
-                                <span class="tel-input__legend">телефон:*</span>
                             </label>
                         </div>
                     </div>
@@ -157,18 +157,18 @@
                         <div class="comments__input comment-wrapper">
                             <label class="comment-wrapper__comment-input comment-input" for="comments">
                                 <input class="comment-input__text" type="text" name="comments" id="comments"
-                                    value="kuklachev@gmail.com">
+                                    value="Расскажите обо всех повадках кота">
                                 <span class="visually-hidden">Введите дополнительную инфомрацию.</span>
-                                <span class="comment-input__legend">Расскажите обо всех повадках кота</span>
                             </label>
                         </div>
                     </div>
-                    <fieldset class="application-form__additional additional">
-                        <legend class="additional__name">Инфраструктура</legend>
-                        <ul class="additional__list additional-list">
+                    <div class="application-form__additional additional">
+                      <p class="additional__title">Дополнительно</p>
+                      <fieldset class="additional__fieldset additional-product">
+                        <ul class="additional-product__list additional-list">
                             <li class="additional-list__item">
                                 <label class="additional-list__checkboxes" for="sweetener">
-                                    <input class="additional-list__control-input visually-hidden" type="checkbox"
+                                    <input class="additional-list__control-input <!--visually-hidden-->" type="checkbox"
                                         name="sweetener" id="sweetener" checked="checked">
                                     <span class="additional-list__checkbox-mark"></span>
                                     <span class="additional-list__name">Сахарозаменитель</span>
@@ -177,7 +177,7 @@
                             </li>
                             <li class="additional-list__item">
                                 <label class="additional-list__checkboxes" for="water">
-                                    <input class="additional-list__control-input visually-hidden" type="checkbox"
+                                    <input class="additional-list__control-input <!--visually-hidden-->" type="checkbox"
                                         name="water" id="water">
                                     <span class="additional-list__checkbox-mark"></span>
                                     <span class="additional-list__name">Питьевая вода</span>
@@ -186,7 +186,7 @@
                             </li>
                             <li class="additional-list__item">
                                 <label class="additional-list__checkboxes" for="milk">
-                                    <input class="additional-list__control-input visually-hidden" type="checkbox"
+                                    <input class="additional-list__control-input <!--visually-hidden-->" type="checkbox"
                                         name="milk" id="milk">
                                     <span class="additional-list__checkbox-mark"></span>
                                     <span class="additional-list__name">Молоко</span>
@@ -195,7 +195,7 @@
                             </li>
                             <li class="additional-list__item">
                                 <label class="additional-list__checkboxes" for="vitamin">
-                                    <input class="additional-list__control-input visually-hidden" type="checkbox"
+                                    <input class="additional-list__control-input <!--visually-hidden-->" type="checkbox"
                                         name="vitamin" id="vitamin">
                                     <span class="additional-list__checkbox-mark"></span>
                                     <span class="additional-list__name">Витамины</span>
@@ -205,6 +205,7 @@
                         </ul>
                     </fieldset>
                     <button class="application-form__button primary-button">Отправить заявку</button>
+                    </div>
                 </form>
             </div>
         </section>
