@@ -3,3 +3,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.product-catalog__add-product-card {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}

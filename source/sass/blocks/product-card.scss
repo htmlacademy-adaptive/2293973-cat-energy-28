@@ -1,3 +1,43 @@
 .product-card {
   display: flex;
+  width: 280px;
+}
+
+.product-card__img-wrapper {
+  width: 140px;
+}
+
+.product-card__text-wrapper {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card__title {
+  font-family: "oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(34, 34, 34, 1);
+  text-transform: uppercase;
+}
+
+.product-card__link {
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.product-card__add-product {
+  font-family: "oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(34, 34, 34, 1);
+  text-transform: uppercase;
 }
