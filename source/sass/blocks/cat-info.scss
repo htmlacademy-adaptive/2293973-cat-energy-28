@@ -1,0 +1,20 @@
+.cat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-info__input {
+  display: flex;
+}
+
+.cat-info__cat-name {
+  flex-grow: 1;
+}
+
+.cat-info__cat-weight {
+  flex-grow: 1;
+}
+
+.cat-info__cat-age {
+  flex-grow: 1;
+}
