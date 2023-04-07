@@ -1,0 +1,57 @@
+.choose-program__wrapper {
+  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+    url("../../img/backgrounds/choose-program_bg2.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-program__title {
+  font-family: "oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 36px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 10px;
+}
+
+.choose-program__intro {
+  font-family: "oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 164px;
+  position: relative;
+
+  &:after {
+    background-image: url("../../img/backgrounds/choose-program_bg1.jpg");
+    position: absolute;
+    z-index: 1;
+    width: 280px;
+    height: 270px;
+    left:-50px;
+    top: 43px;
+    content: "";
+  }
+}
+
+.choose-program__button-wrapper {
+  margin-top: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.choose-program__button{
+  width:280px;
+}

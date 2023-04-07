@@ -1,0 +1,36 @@
+.main-header {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-header__logo-picture {
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
+
+.main-header__logo-text {
+  display: block;
+  margin-left: 57px;
+  margin-right: 65px;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
