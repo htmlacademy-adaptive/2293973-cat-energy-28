@@ -47,11 +47,9 @@
 @media (min-width: @tablet-width) {
   .main-header__logo-tablet {
     display: block;
+  }
 
   .main-header__logo-mobile {
       display: none;
     }
-  }
-
 }
-
