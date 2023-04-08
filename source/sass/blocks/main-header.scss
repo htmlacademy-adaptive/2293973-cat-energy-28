@@ -34,3 +34,24 @@
     opacity: 60%;
   }
 }
+
+.main-header__logo-tablet {
+  display: none;
+}
+
+.main-header__logo-desktop {
+  display: none;
+}
+
+
+@media (min-width: @tablet-width) {
+  .main-header__logo-tablet {
+    display: block;
+
+  .main-header__logo-mobile {
+      display: none;
+    }
+  }
+
+}
+
