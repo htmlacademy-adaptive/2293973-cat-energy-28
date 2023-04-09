@@ -1,4 +1,4 @@
-body {
+.page__body {
   margin: auto;
   min-height: 100%;
   width: 320px;
@@ -14,7 +14,7 @@ body {
 }
 
 @media (min-width: $tablet-width) {
-  body {
+  .page__body {
     margin: auto;
     min-height: 100%;
     width: 768px;

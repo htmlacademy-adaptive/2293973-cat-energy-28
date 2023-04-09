@@ -15,3 +15,23 @@
 .product-taste__value {
   text-align: right;
 }
+
+@media (min-width: $tablet-width) {
+  .product-taste {
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-between;
+    font-family: "lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(68, 68, 68, 1);
+  }
+
+  .product-taste__value {
+    text-align: right;
+  }
+}

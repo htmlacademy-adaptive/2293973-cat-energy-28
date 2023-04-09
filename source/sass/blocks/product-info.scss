@@ -7,3 +7,16 @@
   line-height: 16px;
   color: rgba(68, 68, 68, 1);
 }
+
+@media (min-width: $tablet-width) {
+  .product-info__text {
+    font-family: "lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(68, 68, 68, 1);
+  }
+
+}

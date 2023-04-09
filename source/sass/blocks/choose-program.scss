@@ -34,13 +34,13 @@
   margin-bottom: 164px;
   position: relative;
 
-  &:after {
+  &::after {
     background-image: url("../../img/backgrounds/choose-program_bg1.jpg");
     position: absolute;
     z-index: 1;
     width: 280px;
     height: 270px;
-    left:-50px;
+    left: -50px;
     top: 43px;
     content: "";
   }
@@ -52,8 +52,8 @@
   justify-content: center;
 }
 
-.choose-program__button{
-  width:280px;
+.choose-program__button {
+  width: 280px;
 }
 
 @media (min-width: $tablet-width) {
@@ -86,13 +86,13 @@
     margin-bottom: 49px;
     position: relative;
 
-    &:after {
+    &::after {
       background-image: url("../../img/backgrounds/choose-program-tablet.png");
       position: absolute;
       z-index: -1;
       width: 709px;
       height: 609px;
-      left:-200px;
+      left: -200px;
       top: 50px;
       content: "";
     }
@@ -101,9 +101,9 @@
   .choose-program__button-wrapper {
     margin-top: 0;
     display: block;
-   }
+  }
 
-  .choose-program__button{
-    width:244px;
+  .choose-program__button {
+    width: 244px;
   }
 }
