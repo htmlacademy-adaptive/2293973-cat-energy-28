@@ -10,3 +10,10 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .additional-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
