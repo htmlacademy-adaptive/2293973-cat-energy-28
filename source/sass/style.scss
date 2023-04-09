@@ -1,19 +1,7 @@
-body {
-  margin: auto;
-  min-height: 100%;
-  width: 320px;
-  font-family: "lato", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba(68, 68, 68, 1);
-  padding: 0;
-  background-color: rgba(255, 255, 255, 1);
-}
 @import "./fonts.scss";
+@import "./variables.scss";
 @import "./blocks/visually-hidden.scss";
+@import "./blocks/page__body.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/main-nav-list.scss";
@@ -43,4 +31,5 @@ body {
 @import "./blocks/comment-input.scss";
 @import "./blocks/additional.scss";
 @import "./blocks/application-form.scss";
-@import "./variables.scss"
+@import "./blocks/food-type.scss"
+

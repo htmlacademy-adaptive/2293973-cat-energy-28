@@ -43,13 +43,35 @@
   display: none;
 }
 
-
-@media (min-width: @tablet-width) {
+@media (min-width: $tablet-width) {
   .main-header__logo-tablet {
     display: block;
+    width: 174px;
   }
 
   .main-header__logo-mobile {
-      display: none;
-    }
+    display: none;
+  }
+
+  .main-header__logo-text {
+    display: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-header {
+    display: flex;
+    width: 768px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .main-header__logo-picture {
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+}
+

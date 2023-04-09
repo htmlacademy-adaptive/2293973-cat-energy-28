@@ -53,3 +53,68 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .example__wrapper {
+    width: 768px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .example__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 60px;
+
+    line-height: 60px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .example__number-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .example__list {
+    display: flex;
+  }
+
+  .example__item {
+    margin: 0;
+    position: relative;
+  }
+
+  .example__number {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 62px;
+  }
+
+  .example__description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 55px;
+  }
+
+  .example__cost {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

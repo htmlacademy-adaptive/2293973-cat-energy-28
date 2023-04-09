@@ -17,3 +17,29 @@
     left:-80px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .how-it-works-list {
+    display: grid;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 230px 230px;
+    column-gap: 153px;
+    row-gap: 37px;
+  }
+
+  .how-it-works-list__item {
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+
+    &:after{
+      content: "";
+      width: 60px;
+      height: 60px;
+      background-color: rgba(104, 183, 56, 1);
+      position: absolute;
+      top: 0;
+      left:-80px;
+    }
+  }
+}

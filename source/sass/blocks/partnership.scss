@@ -22,3 +22,32 @@
 .partnership__adress {
   line-height: 20px;
 }
+
+@media (min-width: $tablet-width)  {
+  .partnership__wrapper {
+    width: 768px;
+  }
+
+  .partnership__text-partnership {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .partnership__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    width: 171px;
+  }
+
+  .partnership__adress {
+    width: 159px;
+    line-height: 20px;
+  }
+}

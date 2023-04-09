@@ -55,3 +55,55 @@
 .choose-program__button{
   width:280px;
 }
+
+@media (min-width: $tablet-width) {
+  .choose-program__wrapper {
+    background-image: none;
+  }
+
+  .choose-program__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    width: 416px;
+  }
+
+  .choose-program__intro {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+    position: relative;
+
+    &:after {
+      background-image: url("../../img/backgrounds/choose-program-tablet.png");
+      position: absolute;
+      z-index: -1;
+      width: 709px;
+      height: 609px;
+      left:-200px;
+      top: 50px;
+      content: "";
+    }
+  }
+
+  .choose-program__button-wrapper {
+    margin-top: 0;
+    display: block;
+   }
+
+  .choose-program__button{
+    width:244px;
+  }
+}

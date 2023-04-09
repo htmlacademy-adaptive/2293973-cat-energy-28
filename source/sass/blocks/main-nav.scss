@@ -11,3 +11,9 @@
 .main-nav__wrapper {
   display: flex;
 }
+
+@media (min-width: $tablet-width) {
+  .main-nav__toogle {
+    display: none;
+  }
+}
