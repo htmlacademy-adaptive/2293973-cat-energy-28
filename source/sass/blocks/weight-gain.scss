@@ -99,3 +99,55 @@
     margin-left: 20px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .weight-gain {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 570px;
+  }
+
+  .weight-gain__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 191px;
+    position: relative;
+
+    &:after{
+      background-image: url("../../img/icons/weight-gain-desktop.svg");
+      position: absolute;
+      width: 134px;
+      height: 100px;
+      content: "";
+      z-index: 1;
+      top: -20px;
+      left: -150px;
+    }
+  }
+
+  .weight-gain__intro{
+    margin-left: 20px;
+    margin-right: 33px;
+  }
+
+  .weight-gain__link{
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 20px;
+  }
+}
