@@ -28,3 +28,21 @@
     text-align: center;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .product-catalog {
+    display: grid;
+    grid-template-columns: 245px 245px 245px 245px;
+    grid-template-rows: 430px 430px;
+    row-gap: 80px;
+    column-gap: 143px;
+  }
+
+  .product-catalog__add-product-card {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+}
