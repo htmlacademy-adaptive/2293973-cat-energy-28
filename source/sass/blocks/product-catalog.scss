@@ -11,3 +11,19 @@
   align-content: center;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .product-catalog {
+    display: grid;
+    grid-template-columns: 324px 324px;
+    grid-template-rows: 430px 430px;
+  }
+
+  .product-catalog__add-product-card {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+  }
+}
