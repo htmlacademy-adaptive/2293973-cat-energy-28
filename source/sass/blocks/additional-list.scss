@@ -1,0 +1,12 @@
+.additional-list {
+  list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .additional-list {
+    display: grid;
+    grid-template-columns: 221px 221px;
+    grid-template-rows: 50px 50px;
+    justify-content: space-between;
+  }
+}

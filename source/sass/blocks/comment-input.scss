@@ -1,3 +1,9 @@
 .comment-input__text {
   width: 280px;
 }
+
+@media (min-width: $tablet-width) {
+  .comment-input__text {
+    width: 630px;
+  }
+}
