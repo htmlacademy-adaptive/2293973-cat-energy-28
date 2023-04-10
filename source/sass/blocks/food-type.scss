@@ -1,0 +1,16 @@
+@media (min-width: $tablet-width) {
+  .food-type__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 600px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .food-type__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 267px;
+    justify-content: space-between;
+  }
+}

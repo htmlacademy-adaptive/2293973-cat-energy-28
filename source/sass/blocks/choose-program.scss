@@ -34,13 +34,13 @@
   margin-bottom: 164px;
   position: relative;
 
-  &:after {
+  &::after {
     background-image: url("../../img/backgrounds/choose-program_bg1.jpg");
     position: absolute;
     z-index: 1;
     width: 280px;
     height: 270px;
-    left:-50px;
+    left: -50px;
     top: 43px;
     content: "";
   }
@@ -52,6 +52,117 @@
   justify-content: center;
 }
 
-.choose-program__button{
-  width:280px;
+.choose-program__button {
+  width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .choose-program__wrapper {
+    background-image: none;
+  }
+
+  .choose-program__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    width: 416px;
+  }
+
+  .choose-program__intro {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+    position: relative;
+
+    &::after {
+      background-image: url("../../img/backgrounds/choose-program-tablet.png");
+      position: absolute;
+      z-index: -1;
+      width: 709px;
+      height: 609px;
+      left: -200px;
+      top: 50px;
+      content: "";
+    }
+  }
+
+  .choose-program__button-wrapper {
+    margin-top: 0;
+    display: block;
+  }
+
+  .choose-program__button {
+    width: 244px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choose-program__wrapper {
+    background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
+      url("../../img/backgrounds/choose-program-desktop-bg2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 720px 694px, 720px 694px;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+  }
+
+  .choose-program__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 60px;
+    line-height: 60px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    width: 416px;
+  }
+
+  .choose-program__intro {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+    position: relative;
+
+    &::after {
+      background-image: url("../../img/backgrounds/choose-program-desktop.png");
+      position: absolute;
+      z-index: 1;
+      width: 552px;
+      height: 499px;
+      left: 300px;
+      top: -150px;
+      content: "";
+    }
+  }
+
+  .choose-program__button-wrapper {
+    margin-top: 0;
+    display: block;
+  }
+
+  .choose-program__button {
+    width: 244px;
+  }
 }

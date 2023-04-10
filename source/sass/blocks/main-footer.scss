@@ -15,3 +15,24 @@
   width: 280px;
   justify-content: space-between;
 }
+
+@media (min-width: $tablet-width) {
+  .main-footer {
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-footer__socials-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  .main-footer__academy-link {
+    display: flex;
+    width: 168px;
+    justify-content: space-between;
+  }
+}

@@ -1,3 +1,15 @@
 .comment-input__text {
   width: 280px;
 }
+
+@media (min-width: $tablet-width) {
+  .comment-input__text {
+    width: 630px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .comment-input__text {
+    width: 1220px;
+  }
+}

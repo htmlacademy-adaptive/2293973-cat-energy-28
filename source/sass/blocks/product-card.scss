@@ -41,3 +41,103 @@
   color: rgba(34, 34, 34, 1);
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .product-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+  }
+
+  .product-card__img-wrapper {
+    max-width: 168px;
+  }
+
+  .product-card__text-wrapper {
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+  }
+
+  .product-card__link {
+    width: 248px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .product-card__add-product {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+  }
+
+  .product-card__img-wrapper {
+    max-width: 168px;
+  }
+
+  .product-card__text-wrapper {
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card__title {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 21px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+  }
+
+  .product-card__link {
+    width: 248px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .product-card__add-product {
+    font-family: "oswald", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+  }
+}
