@@ -26,25 +26,6 @@
   color: rgba(68, 68, 68, 1);
 }
 
-.additional-goods__promo {
-  background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-    url("../../img/backgrounds/additional-goods__promo.png");
-  height: 329px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100%, 100%;
-  text-align: center;
-}
-
-.additional-goods__promo-text {
-  font-family: "lato", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 1);
-}
-
 @media (min-width: $tablet-width) {
   .additional-goods {
     display: flex;
@@ -80,27 +61,6 @@
     font-size: 14px;
     line-height: 14px;
     color: rgba(68, 68, 68, 1);
-  }
-
-  .additional-goods__promo {
-    background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("../../img/backgrounds/additional-goods__promo.png");
-    width: 708px;
-    height: 329px;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100%, 100%;
-    text-align: center;
-    margin: auto;
-  }
-
-  .additional-goods__promo-text {
-    font-family: "lato", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 1);
   }
 }
 
@@ -149,29 +109,5 @@
     line-height: 14px;
     color: rgba(68, 68, 68, 1);
     position: relative;
-  }
-
-  .additional-goods__promo {
-    background-image: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)),
-      url("../../img/backgrounds/additional-goods__promo.png");
-    width: 245px;
-    height: 289px;
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, contain;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 1100px;
-    right: 750px;
-  }
-
-  .additional-goods__promo-text {
-    font-family: "lato", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 1);
   }
 }
