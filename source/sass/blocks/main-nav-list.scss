@@ -7,6 +7,17 @@
   padding-left: 0;
 }
 
+.main-nav-list__item {
+  &::before {
+    position: absolute;
+    width: 767px;
+    height: 1px;
+    background-color: rgba(230, 230, 230, 1);
+    left: 0;
+    content: "";
+  }
+}
+
 .main-nav-list__link {
   font-family: "oswald", sans-serif;
   font-style: normal;
@@ -17,7 +28,9 @@
   color: rgba(0, 0, 0, 1);
   text-transform: uppercase;
   text-decoration: none;
+  position: relative;
 }
+
 
 @media (min-width: $tablet-width) {
   .main-nav-list {
